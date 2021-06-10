@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> with FBAuth{
   _takeUserInformationFromFBDB(User user) async {
     FBCloudStore.instanace.takeUserInformationFromFBDB().then((documents) {
       if (documents.length > 0) {
-        _emailTextController.text = documents[0].data()['email'] ?? '';
+        _emailTextController.text = documents[0]['email'].data() ?? '';
         _nameTextController.text = documents[0]['name'];
         _introTextController.text = documents[0]['intro'];
         _userId = documents[0]['userId'];

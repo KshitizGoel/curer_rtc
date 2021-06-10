@@ -51,7 +51,7 @@ class NotificationController {
   Future<void> saveUerTokenToSharedPreference() async{
     SharedPreferences prefs = await SharedPreferences.getInstance();
     _firebaseMessaging.getToken(
-        vapidKey: firebaseCloudvapidKey
+        vapidKey: firebaseCloudApIdKey
     ).then((val) async {
       print('Token: '+val);
       prefs.setString('FCMToken', val);
@@ -61,7 +61,7 @@ class NotificationController {
   Future<void> updateTokenToServer() async{
     SharedPreferences prefs = await SharedPreferences.getInstance();
     _firebaseMessaging.getToken(
-        vapidKey: firebaseCloudvapidKey
+        vapidKey: firebaseCloudApIdKey
     ).then((val) async {
       print('Token: '+val);
       prefs.setString('FCMToken', val);
@@ -115,7 +115,7 @@ class NotificationController {
         Uri.parse('https://fcm.googleapis.com/fcm/send'),
         headers: <String, String>{
           'Content-Type': 'application/json; charset=UTF-8',
-          'Authorization': 'key=$firebaseCloudserverToken',
+          'Authorization': 'key=$firebaseCloudServerToken',
         },
         body: jsonEncode(
           <String, dynamic>{

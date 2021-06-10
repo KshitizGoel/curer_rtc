@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "645289800014",
+    "firebase_url": "https://chat-cc03e-default-rtdb.firebaseio.com",
+    "project_id": "chat-cc03e",
+    "storage_bucket": "chat-cc03e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645289800014:android:ebc5bdd2bc3c5be25aae1f",
+        "android_client_info": {
+          "package_name": "loyd.app.example.flutter.com.chatapploydlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645289800014-mb4q72hi80a3ltkfaignnvogde12vkbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz0jquIabmQeieeSUg2Im7_ITdR1SRM70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645289800014-mb4q72hi80a3ltkfaignnvogde12vkbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

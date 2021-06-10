@@ -115,7 +115,7 @@ class FBCloudStore {
         .get();
 
     if(userDoc.data() != null) {
-      isRoom = userDoc.data()['inRoom'] ?? false;
+      isRoom = userDoc['inRoom'].data() ?? false;
       if(userDoc != null && documentID != myID && !userDoc['inRoom']){
         userBadgeCount = userDoc['badgeCount'];
         userBadgeCount++;

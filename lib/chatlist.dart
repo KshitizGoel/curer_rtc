@@ -95,11 +95,11 @@ class _ChatList extends State<ChatList> with LocalNotificationView{
                                       padding:const EdgeInsets.fromLTRB( 0, 5, 0, 0),
                                       child: CircleAvatar(
                                         radius: 9,
-                                        child: Text(chatListSnapshot.data.docs[0].data()['badgeCount'] == null ? '' : ((chatListSnapshot.data.docs[0].data()['badgeCount'] != 0
-                                          ? '${chatListSnapshot.data.docs[0].data()['badgeCount']}'
+                                        child: Text(chatListSnapshot.data.docs[0]['badgeCount'].data() == null ? '' : ((chatListSnapshot.data.docs[0]['badgeCount'].data() != 0
+                                          ? '${chatListSnapshot.data.docs[0]['badgeCount'].data()}'
                                           : '')),
                                         style: TextStyle(fontSize: 10),),
-                                        backgroundColor: chatListSnapshot.data.docs[0].data()['badgeCount'] == null ? Colors.transparent : (chatListSnapshot.data.docs[0]['badgeCount'] != 0
+                                        backgroundColor: chatListSnapshot.data.docs[0]['badgeCount'].data() == null ? Colors.transparent : (chatListSnapshot.data.docs[0]['badgeCount'] != 0
                                           ? Colors.red[400]
                                           : Colors.transparent),
                                         foregroundColor:Colors.white,
