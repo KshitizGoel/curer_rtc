@@ -13,7 +13,7 @@ import 'Controllers/fb_auth.dart';
 import 'Controllers/fb_firestore.dart';
 import 'Controllers/fb_storage.dart';
 import 'Controllers/utils.dart';
-import 'chatlist.dart';
+import 'rooms/chatlist.dart';
 import 'subWidgets/common_widgets.dart';
 
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> with FBAuth{
   _takeUserInformationFromFBDB(User user) async {
     FBCloudStore.instanace.takeUserInformationFromFBDB().then((documents) {
       if (documents.length > 0) {
-        _emailTextController.text = documents[0]['email'].data() ?? '';
+        _emailTextController.text = documents[0]['email'] ?? '';
         _nameTextController.text = documents[0]['name'];
         _introTextController.text = documents[0]['intro'];
         _userId = documents[0]['userId'];

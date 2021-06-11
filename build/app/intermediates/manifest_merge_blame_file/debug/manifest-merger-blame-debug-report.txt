@@ -12,528 +12,579 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/debug/AndroidManifest.xml:6:22-64
-15    <uses-permission android:name="android.permission.WAKE_LOCK" />
-15-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-68
-15-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-65
-16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
-16-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
-17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-17-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
-17-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
-18    <uses-permission android:name="android.permission.VIBRATE" />
-18-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
-18-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
-19    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-19-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
-19-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
-20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
-20-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
-20-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
-21    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
-22    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
-23    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
-24    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
-25    <!-- for Samsung -->
-26    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-26-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
-26-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
-27    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
-27-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
-27-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
-28    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-28-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
-28-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
-29    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-29-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
-29-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
-30    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-30-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
-30-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
-31    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
-31-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
-31-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
-32    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
-32-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
-32-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
-33    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
-33-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
-33-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
-34    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-34-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
-34-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
-35    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-35-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
-35-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
-36    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
-36-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
-36-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
-37    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
-37-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
-37-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
-38    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-38-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
-38-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
-39    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
-39-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
-39-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
-40    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-40-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
-40-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
-41    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-41-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
-41-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
-42    <!--
-43 io.flutter.app.FlutterApplication is an android.app.Application that
-44         calls FlutterMain.startInitialization(this); in its onCreate method.
-45         In most cases you can leave this as-is, but you if you want to provide
-46         additional functionality it is fine to subclass or reimplement
-47         FlutterApplication and put your custom class here.
-48    -->
-49    <application
-49-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:8:5-49:19
-50        android:name="io.flutter.app.FlutterApplication"
-50-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:9:9-57
-51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-51-->[androidx.core:core:1.3.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/f2e0eaaff67bde345351d7ed79a43d9e/core-1.3.0/AndroidManifest.xml:24:18-86
-52        android:debuggable="true"
-53        android:icon="@mipmap/ic_launcher"
-53-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:11:9-43
-54        android:label="Chat App" >
-54-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:10:9-33
-55        <activity
-55-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:12:9-31:20
-56            android:name="loyd.app.example.flutter.com.chatapploydlab.MainActivity"
-56-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:13:13-41
-57            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-57-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:16:13-163
-58            android:hardwareAccelerated="true"
-58-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:17:13-47
-59            android:launchMode="singleTop"
-59-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:14:13-43
-60            android:theme="@style/LaunchTheme"
-60-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:15:13-47
-61            android:windowSoftInputMode="adjustResize" >
-61-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:18:13-55
-62            <meta-data
-62-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:19:13-21:59
-63                android:name="com.google.firebase.messaging.default_notification_channel_id"
-63-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:20:17-93
-64                android:value="high_importance_channel" />
-64-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:21:17-56
-65
-66            <intent-filter>
-66-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:23:13-26:29
-67                <action android:name="android.intent.action.MAIN" />
-67-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:24:17-68
-67-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:24:25-66
-68
-69                <category android:name="android.intent.category.LAUNCHER" />
-69-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:25:17-76
-69-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:25:27-74
-70            </intent-filter>
-71            <intent-filter>
-71-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:27:13-30:29
-72                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
-72-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:28:17-69
-72-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:28:25-66
-73
-74                <category android:name="android.intent.category.DEFAULT" />
-74-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:29:17-76
-74-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:29:27-73
-75            </intent-filter>
-76        </activity>
-77        <activity
-77-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:32:9-35:71
-78            android:name="com.yalantis.ucrop.UCropActivity"
-78-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:33:13-60
-79            android:screenOrientation="portrait"
-79-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:34:13-49
-80            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-80-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:35:13-69
-81        <!--
-82             Don't delete the meta-data below.
-83             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-84        -->
-85        <meta-data
-85-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:38:9-40:33
-86            android:name="flutterEmbedding"
-86-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:39:13-44
-87            android:value="2" />
-87-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:40:13-30
-88        <meta-data
-88-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:42:9-44:62
-89            android:name="com.google.firebase.messaging.default_notification_icon"
-89-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:43:13-83
-90            android:resource="@drawable/icon_notification" />
-90-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:44:13-59
-91        <meta-data
-91-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:46:9-48:54
-92            android:name="com.google.firebase.messaging.default_notification_color"
-92-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:47:13-84
-93            android:resource="@color/colorPrimary" />
-93-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:48:13-51
-94
-95        <service
-95-->[:firebase_storage] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-96            android:name="com.google.firebase.components.ComponentDiscoveryService"
-96-->[:firebase_storage] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
-97            android:directBootAware="true"
-97-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
-98            android:exported="false" >
-98-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
-99            <meta-data
-99-->[:firebase_storage] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-100-->[:firebase_storage] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
-101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[:firebase_storage] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-102            <meta-data
-102-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
-103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-103-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
-104                android:value="com.google.firebase.components.ComponentRegistrar" />
-104-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
-105            <meta-data
-105-->[:cloud_firestore] /Users/kshitizgoel/Desktop/chat_app_loyd/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-106-->[:cloud_firestore] /Users/kshitizgoel/Desktop/chat_app_loyd/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
-107                android:value="com.google.firebase.components.ComponentRegistrar" />
-107-->[:cloud_firestore] /Users/kshitizgoel/Desktop/chat_app_loyd/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-108            <meta-data
-108-->[:firebase_auth] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-109-->[:firebase_auth] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
-110                android:value="com.google.firebase.components.ComponentRegistrar" />
-110-->[:firebase_auth] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-111            <meta-data
-111-->[:firebase_core] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-112                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-112-->[:firebase_core] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
-113                android:value="com.google.firebase.components.ComponentRegistrar" />
-113-->[:firebase_core] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-114            <meta-data
-114-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
-115                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-115-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
-116                android:value="com.google.firebase.components.ComponentRegistrar" />
-116-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
-117            <meta-data
-117-->[com.google.firebase:firebase-storage:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/62bdf1d8f3904e2fb290e22210c25916/firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
-118                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-118-->[com.google.firebase:firebase-storage:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/62bdf1d8f3904e2fb290e22210c25916/firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
-119                android:value="com.google.firebase.components.ComponentRegistrar" />
-119-->[com.google.firebase:firebase-storage:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/62bdf1d8f3904e2fb290e22210c25916/firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
-120            <meta-data
-120-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
-121                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-121-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
-122                android:value="com.google.firebase.components.ComponentRegistrar" />
-122-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
-123            <meta-data
-123-->[com.google.firebase:firebase-firestore:23.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9e30900ff14f3b69c320bdfe6e5b841b/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:20:13-22:85
-124                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-124-->[com.google.firebase:firebase-firestore:23.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9e30900ff14f3b69c320bdfe6e5b841b/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:21:17-111
-125                android:value="com.google.firebase.components.ComponentRegistrar" />
-125-->[com.google.firebase:firebase-firestore:23.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9e30900ff14f3b69c320bdfe6e5b841b/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:22:17-82
-126            <meta-data
-126-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/82a4fec2f9c8b119e3f35b6a79557b7d/firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
-127                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-127-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/82a4fec2f9c8b119e3f35b6a79557b7d/firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
-128                android:value="com.google.firebase.components.ComponentRegistrar" />
-128-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/82a4fec2f9c8b119e3f35b6a79557b7d/firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
-129            <meta-data
-129-->[com.google.firebase:firebase-installations:17.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/a266d7e6991cd2a8e83f4f1fee307719/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
-130                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-130-->[com.google.firebase:firebase-installations:17.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/a266d7e6991cd2a8e83f4f1fee307719/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
-131                android:value="com.google.firebase.components.ComponentRegistrar" />
-131-->[com.google.firebase:firebase-installations:17.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/a266d7e6991cd2a8e83f4f1fee307719/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
-132        </service>
-133
-134        <provider
-134-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
-135            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-135-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
-136            android:authorities="loyd.app.example.flutter.com.chatapploydlab.flutter.image_provider"
-136-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
-137            android:exported="false"
-137-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
-138            android:grantUriPermissions="true" >
-138-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+14-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:3:5-67
+14-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+15-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:4:5-77
+15-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:4:22-75
+16    <uses-permission android:name="android.permission.BIND_TELECOM_CONNECTION_SERVICE" />
+16-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:6:5-89
+16-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:6:22-87
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:7:5-77
+17-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:7:22-74
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:8:5-75
+18-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:8:22-72
+19    <uses-permission android:name="android.permission.CALL_PHONE" />
+19-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:9:5-69
+19-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:9:22-66
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:10:5-71
+20-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:10:22-68
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:11:5-81
+21-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:11:22-78
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:12:5-79
+22-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:12:22-76
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:13:5-65
+23-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:13:22-62
+24    <uses-permission android:name="android.permission.READ_CONTACTS" />
+24-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:14:5-72
+24-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:14:22-69
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:15:5-72
+25-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:15:22-69
+26    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+26-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:16:5-73
+26-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:16:22-70
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:17:5-80
+27-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:17:22-77
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:18:5-81
+28-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:18:22-78
+29    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+29-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:19:5-73
+29-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:19:22-70
+30    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+30-->[:agora_rtc_engine] /Users/kshitizgoel/Desktop/chat_app_loyd/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+30-->[:agora_rtc_engine] /Users/kshitizgoel/Desktop/chat_app_loyd/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-77
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[:agora_rtc_engine] /Users/kshitizgoel/Desktop/chat_app_loyd/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-79
+31-->[:agora_rtc_engine] /Users/kshitizgoel/Desktop/chat_app_loyd/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-76
+32    <uses-permission android:name="android.permission.BLUETOOTH" />
+32-->[:agora_rtc_engine] /Users/kshitizgoel/Desktop/chat_app_loyd/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-68
+32-->[:agora_rtc_engine] /Users/kshitizgoel/Desktop/chat_app_loyd/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-65
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->[:agora_rtc_engine] /Users/kshitizgoel/Desktop/chat_app_loyd/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-76
+33-->[:agora_rtc_engine] /Users/kshitizgoel/Desktop/chat_app_loyd/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:17:22-73
+34    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+34-->[:agora_rtc_engine] /Users/kshitizgoel/Desktop/chat_app_loyd/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-21:47
+34-->[:agora_rtc_engine] /Users/kshitizgoel/Desktop/chat_app_loyd/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-70
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-68
+35-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-65
+36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+36-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+36-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+37    <uses-permission android:name="android.permission.VIBRATE" />
+37-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+37-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+38    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+38-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+38-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+39-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+39-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+40    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+41    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+42    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+43    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+44    <!-- for Samsung -->
+45    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+46    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+47    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+48    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+49    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+50    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+51    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+52    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+53    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+54    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+55    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+56    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+57    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+58    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+59    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+60    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/76d4332eea586e83f4b6e7d675653d20/ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+61
+62    <application
+62-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:20:5-61:19
+63        android:name="io.flutter.app.FlutterApplication"
+63-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:21:9-57
+64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+64-->[androidx.core:core:1.3.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/f2e0eaaff67bde345351d7ed79a43d9e/core-1.3.0/AndroidManifest.xml:24:18-86
+65        android:debuggable="true"
+66        android:icon="@mipmap/ic_launcher"
+66-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:23:9-43
+67        android:label="Chat App" >
+67-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:22:9-33
+68        <activity
+68-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:24:9-43:20
+69            android:name="loyd.app.example.flutter.com.chatapploydlab.MainActivity"
+69-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:25:13-41
+70            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+70-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:28:13-163
+71            android:hardwareAccelerated="true"
+71-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:29:13-47
+72            android:launchMode="singleTop"
+72-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:26:13-43
+73            android:theme="@style/LaunchTheme"
+73-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:27:13-47
+74            android:windowSoftInputMode="adjustResize" >
+74-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:30:13-55
+75            <meta-data
+75-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:31:13-33:59
+76                android:name="com.google.firebase.messaging.default_notification_channel_id"
+76-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:32:17-93
+77                android:value="high_importance_channel" />
+77-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:33:17-56
+78
+79            <intent-filter>
+79-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:35:13-38:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:36:17-68
+80-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:36:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:37:17-76
+82-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:37:27-74
+83            </intent-filter>
+84            <intent-filter>
+84-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:39:13-42:29
+85                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+85-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:40:17-69
+85-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:40:25-66
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:41:17-76
+87-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:41:27-73
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:44:9-47:71
+91            android:name="com.yalantis.ucrop.UCropActivity"
+91-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:45:13-60
+92            android:screenOrientation="portrait"
+92-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:46:13-49
+93            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+93-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:47:13-69
+94        <!--
+95             Don't delete the meta-data below.
+96             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+97        -->
+98        <meta-data
+98-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:50:9-52:33
+99            android:name="flutterEmbedding"
+99-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:51:13-44
+100            android:value="2" />
+100-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:52:13-30
+101        <meta-data
+101-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:54:9-56:62
+102            android:name="com.google.firebase.messaging.default_notification_icon"
+102-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:55:13-83
+103            android:resource="@drawable/icon_notification" />
+103-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:56:13-59
+104        <meta-data
+104-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:58:9-60:54
+105            android:name="com.google.firebase.messaging.default_notification_color"
+105-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:59:13-84
+106            android:resource="@color/colorPrimary" />
+106-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:60:13-51
+107
+108        <service
+108-->[:firebase_storage] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[:firebase_storage] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
+112            <meta-data
+112-->[:firebase_storage] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+113                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+113-->[:firebase_storage] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[:firebase_storage] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+115            <meta-data
+115-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
+116                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+116-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
+118            <meta-data
+118-->[:cloud_firestore] /Users/kshitizgoel/Desktop/chat_app_loyd/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+119                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+119-->[:cloud_firestore] /Users/kshitizgoel/Desktop/chat_app_loyd/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:cloud_firestore] /Users/kshitizgoel/Desktop/chat_app_loyd/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+121            <meta-data
+121-->[:firebase_auth] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+122                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+122-->[:firebase_auth] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[:firebase_auth] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+124            <meta-data
+124-->[:firebase_core] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+125                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+125-->[:firebase_core] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[:firebase_core] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+128                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+128-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-storage:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/62bdf1d8f3904e2fb290e22210c25916/firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+131                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+131-->[com.google.firebase:firebase-storage:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/62bdf1d8f3904e2fb290e22210c25916/firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-storage:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/62bdf1d8f3904e2fb290e22210c25916/firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+134                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+134-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-firestore:23.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9e30900ff14f3b69c320bdfe6e5b841b/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:20:13-22:85
+137                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+137-->[com.google.firebase:firebase-firestore:23.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9e30900ff14f3b69c320bdfe6e5b841b/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:21:17-111
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-firestore:23.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9e30900ff14f3b69c320bdfe6e5b841b/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:22:17-82
 139            <meta-data
-139-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
-140                android:name="android.support.FILE_PROVIDER_PATHS"
-140-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
-141                android:resource="@xml/flutter_image_picker_file_paths" />
-141-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
-142        </provider>
-143
-144        <service
-144-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
-145            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-145-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
-146            android:exported="false"
-146-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
-147            android:permission="android.permission.BIND_JOB_SERVICE" />
-147-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
-148        <service
-148-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
-149            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-149-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
-150            android:exported="false" >
-150-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
-151            <intent-filter>
-151-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
-152                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-152-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
-152-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
-153            </intent-filter>
-154        </service>
-155
-156        <receiver
-156-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
-157            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-157-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
-158            android:exported="true"
-158-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
-159            android:permission="com.google.android.c2dm.permission.SEND" >
-159-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
-160            <intent-filter>
-160-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
-161                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-161-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
-161-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
-162            </intent-filter>
-163        </receiver>
-164
-165        <provider
-165-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
-166            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-166-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
-167            android:authorities="loyd.app.example.flutter.com.chatapploydlab.flutterfirebasemessaginginitprovider"
-167-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
-168            android:exported="false"
-168-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
-169            android:initOrder="99" />
-169-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
-170
-171        <activity
-171-->[:url_launcher] /Users/kshitizgoel/Desktop/chat_app_loyd/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
-172            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-172-->[:url_launcher] /Users/kshitizgoel/Desktop/chat_app_loyd/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
-173            android:exported="false"
-173-->[:url_launcher] /Users/kshitizgoel/Desktop/chat_app_loyd/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
-174            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-174-->[:url_launcher] /Users/kshitizgoel/Desktop/chat_app_loyd/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
-175
-176        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
-176-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-106
-176-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-103
-177        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
-177-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-20:20
-177-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-107
-178            <intent-filter>
-178-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-19:29
-179                <action android:name="android.intent.action.BOOT_COMPLETED" />
-179-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-79
-179-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:25-76
-180                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-180-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-84
-180-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:25-81
-181                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-181-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-82
-181-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-79
-182                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-182-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-82
-182-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:25-79
-183            </intent-filter>
-184        </receiver>
-185        <receiver
-185-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
-186            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-186-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
-187            android:exported="true"
-187-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
-188            android:permission="com.google.android.c2dm.permission.SEND" >
-188-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
-189            <intent-filter>
-189-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
-190                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-190-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
-190-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
-191            </intent-filter>
-192        </receiver>
-193        <!--
-194             FirebaseMessagingService performs security checks at runtime,
-195             but set to not exported to explicitly avoid allowing another app to call it.
-196        -->
-197        <service
-197-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
-198            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-198-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
-199            android:directBootAware="true"
-199-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
-200            android:exported="false" >
-200-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
-201            <intent-filter android:priority="-500" >
-201-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
-202                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-202-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
-202-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
-203            </intent-filter>
-204        </service>
-205
-206        <activity
-206-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
-207            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-207-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
-208            android:excludeFromRecents="true"
-208-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
-209            android:exported="true"
-209-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
-210            android:launchMode="singleTask"
-210-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
-211            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-211-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
-212            <intent-filter>
-212-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
-213                <action android:name="android.intent.action.VIEW" />
-213-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-213-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
-214
-215                <category android:name="android.intent.category.DEFAULT" />
-215-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:29:17-76
-215-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:29:27-73
-216                <category android:name="android.intent.category.BROWSABLE" />
-216-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-216-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
-217
-218                <data
-218-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
-219                    android:host="firebase.auth"
-219-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
-220                    android:path="/"
-220-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
-221                    android:scheme="genericidp" />
-221-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
-222            </intent-filter>
-223        </activity>
-224        <activity
-224-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
-225            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-225-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
-226            android:excludeFromRecents="true"
-226-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
-227            android:exported="true"
-227-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
-228            android:launchMode="singleTask"
-228-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
-229            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-229-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
-230            <intent-filter>
-230-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
-231                <action android:name="android.intent.action.VIEW" />
-231-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-231-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
-232
-233                <category android:name="android.intent.category.DEFAULT" />
-233-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:29:17-76
-233-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:29:27-73
-234                <category android:name="android.intent.category.BROWSABLE" />
-234-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-234-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
-235
-236                <data
-236-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
-237                    android:host="firebase.auth"
-237-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
-238                    android:path="/"
-238-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
-239                    android:scheme="recaptcha" />
-239-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
-240            </intent-filter>
-241        </activity>
-242
-243        <service
-243-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
-244            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-244-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
-245            android:enabled="true"
-245-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
-246            android:exported="false" >
-246-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
-247            <intent-filter>
-247-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
-248                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-248-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
-248-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
-249
-250                <category android:name="android.intent.category.DEFAULT" />
-250-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:29:17-76
-250-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:29:27-73
-251            </intent-filter>
-252        </service>
-253
-254        <activity
-254-->[com.google.android.gms:play-services-base:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-255            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-255-->[com.google.android.gms:play-services-base:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-256            android:exported="false"
-256-->[com.google.android.gms:play-services-base:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-257            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-257-->[com.google.android.gms:play-services-base:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-258
-259        <provider
-259-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
-260            android:name="com.google.firebase.provider.FirebaseInitProvider"
-260-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
-261            android:authorities="loyd.app.example.flutter.com.chatapploydlab.firebaseinitprovider"
-261-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
-262            android:directBootAware="true"
-262-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
-263            android:exported="false"
-263-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
-264            android:initOrder="100" />
-264-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
-265
-266        <meta-data
-266-->[com.google.android.gms:play-services-basement:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/c931c719e7903ed782549abdd987e01a/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
-267            android:name="com.google.android.gms.version"
-267-->[com.google.android.gms:play-services-basement:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/c931c719e7903ed782549abdd987e01a/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
-268            android:value="@integer/google_play_services_version" />
-268-->[com.google.android.gms:play-services-basement:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/c931c719e7903ed782549abdd987e01a/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
-269
-270        <service
-270-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
-271            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-271-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
-272            android:exported="false" >
-272-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
-273            <meta-data
-273-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
-274                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-274-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
-275                android:value="cct" />
-275-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
-276        </service>
-277        <service
-277-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
-278            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-278-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
-279            android:exported="false"
-279-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
-280            android:permission="android.permission.BIND_JOB_SERVICE" >
-280-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
-281        </service>
+139-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/82a4fec2f9c8b119e3f35b6a79557b7d/firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+140                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+140-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/82a4fec2f9c8b119e3f35b6a79557b7d/firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/82a4fec2f9c8b119e3f35b6a79557b7d/firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-installations:17.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/a266d7e6991cd2a8e83f4f1fee307719/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+143                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+143-->[com.google.firebase:firebase-installations:17.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/a266d7e6991cd2a8e83f4f1fee307719/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-installations:17.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/a266d7e6991cd2a8e83f4f1fee307719/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+145        </service>
+146
+147        <provider
+147-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+148            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+148-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+149            android:authorities="loyd.app.example.flutter.com.chatapploydlab.flutter.image_provider"
+149-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+150            android:exported="false"
+150-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+151            android:grantUriPermissions="true" >
+151-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+152            <meta-data
+152-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+153                android:name="android.support.FILE_PROVIDER_PATHS"
+153-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+154                android:resource="@xml/flutter_image_picker_file_paths" />
+154-->[:image_picker] /Users/kshitizgoel/Desktop/chat_app_loyd/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+155        </provider>
+156
+157        <service
+157-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
+158            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+158-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
+159            android:exported="false"
+159-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+160            android:permission="android.permission.BIND_JOB_SERVICE" />
+160-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+161        <service
+161-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+162            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+162-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
+163            android:exported="false" >
+163-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+164            <intent-filter>
+164-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+165                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+165-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+165-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+166            </intent-filter>
+167        </service>
+168
+169        <receiver
+169-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
+170            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+170-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
+171            android:exported="true"
+171-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
+172            android:permission="com.google.android.c2dm.permission.SEND" >
+172-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+173            <intent-filter>
+173-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+174                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+174-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+174-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+175            </intent-filter>
+176        </receiver>
+177
+178        <provider
+178-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
+179            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+179-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
+180            android:authorities="loyd.app.example.flutter.com.chatapploydlab.flutterfirebasemessaginginitprovider"
+180-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
+181            android:exported="false"
+181-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
+182            android:initOrder="99" />
+182-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
+183
+184        <activity
+184-->[:url_launcher] /Users/kshitizgoel/Desktop/chat_app_loyd/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+185            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+185-->[:url_launcher] /Users/kshitizgoel/Desktop/chat_app_loyd/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+186            android:exported="false"
+186-->[:url_launcher] /Users/kshitizgoel/Desktop/chat_app_loyd/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+187            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+187-->[:url_launcher] /Users/kshitizgoel/Desktop/chat_app_loyd/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+188
+189        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+189-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-106
+189-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-103
+190        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+190-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-20:20
+190-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-107
+191            <intent-filter>
+191-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-19:29
+192                <action android:name="android.intent.action.BOOT_COMPLETED" />
+192-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-79
+192-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:25-76
+193                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+193-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-84
+193-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:25-81
+194                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+194-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-82
+194-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-79
+195                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+195-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-82
+195-->[:flutter_local_notifications] /Users/kshitizgoel/Desktop/chat_app_loyd/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:25-79
+196            </intent-filter>
+197        </receiver>
+198        <receiver
+198-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+199            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+199-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+200            android:exported="true"
+200-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+201            android:permission="com.google.android.c2dm.permission.SEND" >
+201-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+202            <intent-filter>
+202-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+203                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+203-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
+203-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+204            </intent-filter>
+205        </receiver>
+206        <!--
+207             FirebaseMessagingService performs security checks at runtime,
+208             but set to not exported to explicitly avoid allowing another app to call it.
+209        -->
+210        <service
+210-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+211            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+211-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+212            android:directBootAware="true"
+212-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+213            android:exported="false" >
+213-->[com.google.firebase:firebase-messaging:22.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/9793f874c422eae8c2858e761f561d9b/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+214            <intent-filter android:priority="-500" >
+214-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+215                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+215-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
+215-->[:firebase_messaging] /Users/kshitizgoel/Desktop/chat_app_loyd/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+216            </intent-filter>
+217        </service>
+218
+219        <activity
+219-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+220            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+220-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+221            android:excludeFromRecents="true"
+221-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+222            android:exported="true"
+222-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+223            android:launchMode="singleTask"
+223-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+224            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+224-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+225            <intent-filter>
+225-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+226                <action android:name="android.intent.action.VIEW" />
+226-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+226-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+227
+228                <category android:name="android.intent.category.DEFAULT" />
+228-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:41:17-76
+228-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:41:27-73
+229                <category android:name="android.intent.category.BROWSABLE" />
+229-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+229-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+230
+231                <data
+231-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+232                    android:host="firebase.auth"
+232-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+233                    android:path="/"
+233-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+234                    android:scheme="genericidp" />
+234-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+235            </intent-filter>
+236        </activity>
+237        <activity
+237-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+238            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+238-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+239            android:excludeFromRecents="true"
+239-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+240            android:exported="true"
+240-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+241            android:launchMode="singleTask"
+241-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+242            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+242-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+243            <intent-filter>
+243-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+244                <action android:name="android.intent.action.VIEW" />
+244-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
+244-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+245
+246                <category android:name="android.intent.category.DEFAULT" />
+246-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:41:17-76
+246-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:41:27-73
+247                <category android:name="android.intent.category.BROWSABLE" />
+247-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+247-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+248
+249                <data
+249-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+250                    android:host="firebase.auth"
+250-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+251                    android:path="/"
+251-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+252                    android:scheme="recaptcha" />
+252-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+253            </intent-filter>
+254        </activity>
+255
+256        <service
+256-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+257            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+257-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+258            android:enabled="true"
+258-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+259            android:exported="false" >
+259-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+260            <intent-filter>
+260-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+261                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+261-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+261-->[com.google.firebase:firebase-auth:21.0.1] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/17447be55f529ecb64493d4117ebc60d/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+262
+263                <category android:name="android.intent.category.DEFAULT" />
+263-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:41:17-76
+263-->/Users/kshitizgoel/Desktop/chat_app_loyd/android/app/src/main/AndroidManifest.xml:41:27-73
+264            </intent-filter>
+265        </service>
+266
+267        <activity
+267-->[com.google.android.gms:play-services-base:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+268            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+268-->[com.google.android.gms:play-services-base:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+269            android:exported="false"
+269-->[com.google.android.gms:play-services-base:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+270            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+270-->[com.google.android.gms:play-services-base:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+271
+272        <provider
+272-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+273            android:name="com.google.firebase.provider.FirebaseInitProvider"
+273-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+274            android:authorities="loyd.app.example.flutter.com.chatapploydlab.firebaseinitprovider"
+274-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+275            android:directBootAware="true"
+275-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+276            android:exported="false"
+276-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+277            android:initOrder="100" />
+277-->[com.google.firebase:firebase-common:20.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/e0fe6e867a188aa41a59fcff9471dce5/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+278
+279        <meta-data
+279-->[com.google.android.gms:play-services-basement:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/c931c719e7903ed782549abdd987e01a/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+280            android:name="com.google.android.gms.version"
+280-->[com.google.android.gms:play-services-basement:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/c931c719e7903ed782549abdd987e01a/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+281            android:value="@integer/google_play_services_version" />
+281-->[com.google.android.gms:play-services-basement:17.1.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/c931c719e7903ed782549abdd987e01a/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
 282
-283        <receiver
-283-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
-284            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-284-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
-285            android:exported="false" />
-285-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
-286    </application>
-287
-288</manifest>
+283        <service
+283-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+284            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+284-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+285            android:exported="false" >
+285-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+286            <meta-data
+286-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+287                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+287-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+288                android:value="cct" />
+288-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/935c5ef332a9d87f5575db6006606704/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+289        </service>
+290        <service
+290-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+291            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+291-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+292            android:exported="false"
+292-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+293            android:permission="android.permission.BIND_JOB_SERVICE" >
+293-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+294        </service>
+295
+296        <receiver
+296-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+297            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+297-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+298            android:exported="false" />
+298-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/1ad07ea7c7297dfad1b813b8be4cbeca/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+299    </application>
+300
+301</manifest>

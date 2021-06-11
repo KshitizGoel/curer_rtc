@@ -7,7 +7,7 @@ import 'package:intl/intl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../chatroom.dart';
+import '../rooms/chatroom.dart';
 
 // For Chat List Functions
 

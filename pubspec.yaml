@@ -30,10 +30,16 @@ dependencies:
   photo_view: ^0.11.1
   font_awesome_flutter: ^9.0.0-nullsafety
 
+
   #ETC
   shared_preferences: ^2.0.4
   url_launcher: ^6.0.2
   intl: ^0.17.0
+
+  #Agora Integrations
+  agora_rtc_engine: ^4.0.2
+  permission_handler: 8.0.1
+
 
 dev_dependencies:
   flutter_test:
@@ -44,4 +50,4 @@ flutter:
   uses-material-design: true
 
   assets:
-  - images/youtube_screenshot.png
+    - images/youtube_screenshot.png

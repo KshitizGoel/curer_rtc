@@ -1,0 +1,4 @@
+#Thu Jun 10 16:52:10 IST 2021
+base.0=/Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
