@@ -1,48 +1,48 @@
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:46
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:59
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:173
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:186
 -keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:172
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:185
 -keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:266
--keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
 # Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:279
+-keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:292
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:273
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:286
 -keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:250
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:263
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:239
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:252
 -keep class com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:202
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:215
 -keep class com.google.firebase.auth.internal.GenericIdpActivity { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:220
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:233
 -keep class com.google.firebase.auth.internal.RecaptchaActivity { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:91
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:104
 -keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:181
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:194
 -keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:193
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:206
 -keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:255
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:268
 -keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:73
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:86
 -keep class com.yalantis.ucrop.UCropActivity { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:46
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:59
 -keep class io.flutter.app.FlutterApplication { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:140
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:153
 -keep class io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:161
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:174
 -keep class io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:152
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:165
 -keep class io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:144
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:157
 -keep class io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:130
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:143
 -keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:167
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:180
 -keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }
-# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:51
+# Referenced at /Users/kshitizgoel/Desktop/chat_app_loyd/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:64
 -keep class loyd.app.example.flutter.com.chatapploydlab.MainActivity { <init>(); }
 # Referenced at /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_alert_dialog_title_material.xml:57
 # Referenced at /Users/kshitizgoel/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:52

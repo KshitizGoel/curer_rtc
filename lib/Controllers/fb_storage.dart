@@ -30,7 +30,7 @@ class FBStorage{
           .ref(filePath)
           .getDownloadURL();
       await prefs.setString('imageUrl',imageURL);
-      List<String> result = await FBCloudStore.instanace.saveUserDataToFirebaseDatabase(userEmail,userId,userName,userIntro,imageURL);
+      List<String> result = await FBCloudStore.instance.saveUserDataToFirebaseDatabase(userEmail,userId,userName,userIntro,imageURL);
 
       return result;
     }catch(e) {

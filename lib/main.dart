@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> with FBAuth{
   }
 
   _takeUserInformationFromFBDB(User user) async {
-    FBCloudStore.instanace.takeUserInformationFromFBDB().then((documents) {
+    FBCloudStore.instance.takeUserInformationFromFBDB().then((documents) {
       if (documents.length > 0) {
         _emailTextController.text = documents[0]['email'] ?? '';
         _nameTextController.text = documents[0]['name'];
@@ -231,7 +231,7 @@ class _MyHomePageState extends State<MyHomePage> with FBAuth{
         _moveToChatList(userData);
       });
     }else{
-      FBCloudStore.instanace.saveUserDataToFirebaseDatabase(_emailTextController.text,_userId,_nameTextController.text,_introTextController.text,_userImageUrlFromFB).then((userData){
+      FBCloudStore.instance.saveUserDataToFirebaseDatabase(_emailTextController.text,_userId,_nameTextController.text,_introTextController.text,_userImageUrlFromFB).then((userData){
         _moveToChatList(userData);
       });
     }

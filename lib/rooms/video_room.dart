@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:agora_rtc_engine/rtc_engine.dart';
+import 'package:chatapploydlab/Controllers/fb_messaging.dart';
 import 'package:chatapploydlab/utils/agora_utils.dart';
 import 'package:chatapploydlab/utils/call.dart';
 import 'package:flutter/material.dart';
@@ -56,18 +57,18 @@ class _VideoRoomState extends State<VideoRoom>
     setState(() {
       switch (state) {
         case AppLifecycleState.resumed:
-          FBCloudStore.instanace
+          FBCloudStore.instance
               .updateMyChatListValues(widget.myID, widget.chatID, true);
           print('AppLifecycleState.resumed');
           break;
         case AppLifecycleState.inactive:
           print('AppLifecycleState.inactive');
-          FBCloudStore.instanace
+          FBCloudStore.instance
               .updateMyChatListValues(widget.myID, widget.chatID, false);
           break;
         case AppLifecycleState.paused:
           print('AppLifecycleState.paused');
-          FBCloudStore.instanace
+          FBCloudStore.instance
               .updateMyChatListValues(widget.myID, widget.chatID, false);
           break;
       }
@@ -78,7 +79,7 @@ class _VideoRoomState extends State<VideoRoom>
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
-    FBCloudStore.instanace
+    FBCloudStore.instance
         .updateMyChatListValues(widget.myID, widget.chatID, true);
 
     if (mounted) {
@@ -176,7 +177,7 @@ class _VideoRoomState extends State<VideoRoom>
     _users.clear();
     _engine.leaveChannel();
     _engine.destroy();
-    FBCloudStore.instanace
+    FBCloudStore.instance
         .updateMyChatListValues(widget.myID, widget.chatID, false);
     _savedChatId("");
     WidgetsBinding.instance.removeObserver(this);
@@ -185,31 +186,42 @@ class _VideoRoomState extends State<VideoRoom>
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
     return Container(
       color: Colors.white,
       child: SafeArea(
         top: false,
         child: Scaffold(
-            appBar: AppBar(
-              title: Text(
-                "Video Chat Room with - ${widget.selectedUserName}",
-                style: TextStyle(fontSize: 15),
-              ),
-              centerTitle: true,
+          appBar: AppBar(
+            title: Text(
+              "Video Chat Room with - ${widget.selectedUserName}",
+              style: TextStyle(fontSize: 15),
             ),
-            body:Stack(
-              children: <Widget>[
-                _viewRows(),
-                _panel(),
-                _toolbar(),
-              ],
-            ),),
+            centerTitle: true,
+          ),
+          floatingActionButtonLocation: FloatingActionButtonLocation.endTop,
+          floatingActionButton: FloatingActionButton(
+            child: InkWell(
+              onTap: () {
+                sendNotifications();
+              },
+              child: Icon(
+                Icons.add,
+                color: Colors.white,
+              ),
+            ),
+          ),
+          body: Stack(
+            children: <Widget>[
+              _viewRows(),
+              _panel(),
+              _toolbar(),
+            ],
+          ),
+        ),
       ),
     );
     // );
   }
-
 
   /// All the Widgets for Video Calling......
 
@@ -219,32 +231,32 @@ class _VideoRoomState extends State<VideoRoom>
       case 1:
         return Container(
             child: Column(
-              children: <Widget>[_videoView(views[0])],
-            ));
+          children: <Widget>[_videoView(views[0])],
+        ));
       case 2:
         return Container(
             child: Column(
-              children: <Widget>[
-                _expandedVideoRow([views[0]]),
-                _expandedVideoRow([views[1]])
-              ],
-            ));
+          children: <Widget>[
+            _expandedVideoRow([views[0]]),
+            _expandedVideoRow([views[1]])
+          ],
+        ));
       case 3:
         return Container(
             child: Column(
-              children: <Widget>[
-                _expandedVideoRow(views.sublist(0, 2)),
-                _expandedVideoRow(views.sublist(2, 3))
-              ],
-            ));
+          children: <Widget>[
+            _expandedVideoRow(views.sublist(0, 2)),
+            _expandedVideoRow(views.sublist(2, 3))
+          ],
+        ));
       case 4:
         return Container(
             child: Column(
-              children: <Widget>[
-                _expandedVideoRow(views.sublist(0, 2)),
-                _expandedVideoRow(views.sublist(2, 4))
-              ],
-            ));
+          children: <Widget>[
+            _expandedVideoRow(views.sublist(0, 2)),
+            _expandedVideoRow(views.sublist(2, 4))
+          ],
+        ));
       default:
     }
     return Container();
@@ -389,5 +401,25 @@ class _VideoRoomState extends State<VideoRoom>
   void _onSwitchCamera() {
     _engine.switchCamera();
   }
+
+  Future<void> sendNotifications() async {
+    try {
+
+
+      /// !!!!!! Here we have to implement the function !!!!!!!
+
+      await NotificationController.instance.sendCallNotification(
+          0,
+          messageType,
+          'Hello there!! Please pick up the call!!!!\nYour consultation is in process!',
+          widget.myName,
+          widget.chatID,
+          widget.selectedUserToken,
+          widget.myImageUrl);
+    } catch (e) {
+      print(e.message);
+    }
+  }
+
 
 }

@@ -52,18 +52,18 @@ class _ChatRoomState extends State<ChatRoom>
     setState(() {
       switch (state) {
         case AppLifecycleState.resumed:
-          FBCloudStore.instanace
+          FBCloudStore.instance
               .updateMyChatListValues(widget.myID, widget.chatID, true);
           print('AppLifecycleState.resumed');
           break;
         case AppLifecycleState.inactive:
           print('AppLifecycleState.inactive');
-          FBCloudStore.instanace
+          FBCloudStore.instance
               .updateMyChatListValues(widget.myID, widget.chatID, false);
           break;
         case AppLifecycleState.paused:
           print('AppLifecycleState.paused');
-          FBCloudStore.instanace
+          FBCloudStore.instance
               .updateMyChatListValues(widget.myID, widget.chatID, false);
           break;
       }
@@ -74,7 +74,7 @@ class _ChatRoomState extends State<ChatRoom>
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
-    FBCloudStore.instanace
+    FBCloudStore.instance
         .updateMyChatListValues(widget.myID, widget.chatID, true);
 
     if (mounted) {
@@ -103,7 +103,7 @@ class _ChatRoomState extends State<ChatRoom>
   @override
   void dispose() {
     isShowLocalNotification = false;
-    FBCloudStore.instanace
+    FBCloudStore.instance
         .updateMyChatListValues(widget.myID, widget.chatID, false);
     _savedChatId("");
     WidgetsBinding.instance.removeObserver(this);
@@ -255,15 +255,15 @@ class _ChatRoomState extends State<ChatRoom>
 
   Future<void> _handleSubmitted(String text) async {
     try {
-      await FBCloudStore.instanace.sendMessageToChatRoom(
+      await FBCloudStore.instance.sendMessageToChatRoom(
           widget.chatID, widget.myID, widget.selectedUserID, text, messageType);
-      await FBCloudStore.instanace.updateUserChatListField(
+      await FBCloudStore.instance.updateUserChatListField(
           widget.selectedUserID,
           messageType == 'text' ? text : '(Photo)',
           widget.chatID,
           widget.myID,
           widget.selectedUserID);
-      await FBCloudStore.instanace.updateUserChatListField(
+      await FBCloudStore.instance.updateUserChatListField(
           widget.myID,
           messageType == 'text' ? text : '(Photo)',
           widget.chatID,
@@ -281,7 +281,10 @@ class _ChatRoomState extends State<ChatRoom>
   Future<void> _getUnreadMSGCountThenSendMessage() async {
     try {
       int unReadMSGCount =
-          await FBCloudStore.instanace.getUnreadMSGCount(widget.selectedUserID);
+          await FBCloudStore.instance.getUnreadMSGCount(widget.selectedUserID);
+
+      /// !!!!!! Here we have to implement the function !!!!!!!
+
       await NotificationController.instance.sendNotificationMessageToPeerUser(
           unReadMSGCount,
           messageType,

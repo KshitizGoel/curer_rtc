@@ -1,10 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_app_badger/flutter_app_badger.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class FBCloudStore {
-  static FBCloudStore get instanace => FBCloudStore();
+  static FBCloudStore get instance => FBCloudStore();
 
   // About Firebase Database
   /// Basically storing all the user database....
@@ -72,7 +71,7 @@ class FBCloudStore {
     //     .doc(chatID)
     //     .set(updateData);
     int unReadMSGCount =
-        await FBCloudStore.instanace.getUnreadMSGCount(documentID);
+        await FBCloudStore.instance.getUnreadMSGCount(documentID);
     FlutterAppBadger.updateBadgeCount(unReadMSGCount);
   }
 
@@ -107,6 +106,7 @@ class FBCloudStore {
       return unReadMSGCount;
     } catch (e) {
       print(e.message);
+      return null;
     }
   }
 

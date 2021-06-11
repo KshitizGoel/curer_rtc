@@ -19,7 +19,7 @@ class LocalNotificationView{
   final timeout = Duration(seconds: 4);
   final ms = Duration(milliseconds: 1);
 
-  bool isShowLocalNotification = false;
+  bool isShowLocalNotification = true;
   double localNotificationAnimationOpacity = 0.0;
   ValueChanged<List<dynamic>> changeNotificationState;
   LocalNotificationData localNotificationData = LocalNotificationData(
@@ -49,34 +49,33 @@ class LocalNotificationView{
         }
       }
 
-
-      // RemoteNotification notification = message.notification;
-      // AndroidNotification android = message.notification?.android;
-      // final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
-      // FlutterLocalNotificationsPlugin();
-      // const AndroidNotificationChannel channel = AndroidNotificationChannel(
-      //   'high_importance_channel', // id
-      //   'High Importance Notifications', // title
-      //   'This channel is used for important notifications.', // description
-      //   importance: Importance.max,
-      // );
-      // await flutterLocalNotificationsPlugin
-      //     .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()
-      //     ?.createNotificationChannel(channel);
-      // if (notification != null && android != null) {
-      //   flutterLocalNotificationsPlugin.show(
-      //       notification.hashCode,
-      //       notification.title,
-      //       notification.body,
-      //       NotificationDetails(
-      //         android: AndroidNotificationDetails(
-      //           channel.id,
-      //           channel.name,
-      //           channel.description,
-      //           icon: android?.smallIcon,
-      //         ),
-      //       ));
-      // }
+      RemoteNotification notification = message.notification;
+      AndroidNotification android = message.notification?.android;
+      final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
+      FlutterLocalNotificationsPlugin();
+      const AndroidNotificationChannel channel = AndroidNotificationChannel(
+        'high_importance_channel', // id
+        'High Importance Notifications', // title
+        'This channel is used for important notifications.', // description
+        importance: Importance.max,
+      );
+      await flutterLocalNotificationsPlugin
+          .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()
+          ?.createNotificationChannel(channel);
+      if (notification != null && android != null) {
+        flutterLocalNotificationsPlugin.show(
+            notification.hashCode,
+            notification.title,
+            notification.body,
+            NotificationDetails(
+              android: AndroidNotificationDetails(
+                channel.id,
+                channel.name,
+                channel.description,
+                icon: android?.smallIcon,
+              ),
+            ));
+      }
     });
   }
 
